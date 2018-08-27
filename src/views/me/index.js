@@ -40,10 +40,11 @@ export default class MeApp extends Component {
                     <View style={[CommonStyles.flex, CommonStyles.flexRow, MeStyles.infoPane]}>
                         <View style={[CommonStyles.flex, CommonStyles.flexCenter, MeStyles.photoBox]}>
                             <View style={[MeStyles.photoCircle]}>
-                                <Image resizeMode={'stretch'}
+                                <Image resizeMode={'cover'}
                                        roundAsCircle={true}
                                        style={MeStyles.photo}
                                        source={require('../../assets/images/me/photo.jpg')}/>
+
                             </View>
                         </View>
                         <View style={[CommonStyles.flex1, MeStyles.userInfo]}>

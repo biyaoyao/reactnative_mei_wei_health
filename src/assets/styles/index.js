@@ -10,8 +10,12 @@ import  CookBookStyles from "./pages/cook-book/index";
 import  KnowledgeStyles from "./pages/knowledge/index";
 import  MeStyles from "./pages/me/index";
 import  FocusStyles from "./pages/me/focus";
+import  MeInfoStyles from "./pages/me/info";
+import  HealthStyles from "./pages/me/health";
+
 import  AppStyles from "./pages/App";
 import  HeaderStyles from "./components/header";
+import  EditBoxStyles from "./components/editBox";
 import  CommonStyles from "./common/index";
 let styles = {
     AppStyles,
@@ -25,6 +29,9 @@ let styles = {
     CookBookStyles,
     KnowledgeStyles,
     MeStyles,
-    FocusStyles
+    FocusStyles,
+    MeInfoStyles,
+    EditBoxStyles,
+    HealthStyles
 };
 module.exports = styles;

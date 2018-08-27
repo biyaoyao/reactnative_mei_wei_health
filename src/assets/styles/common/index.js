@@ -56,12 +56,25 @@ export default StyleSheet.create({
         height: '100%',
         backgroundColor: 'rgba(0, 0, 0, 0.8)'
     },
+    modalHead: {
+        height: 45,
+    },
+    headerRightText: {
+        height: '100%',
+        lineHeight: 45
+    },
     content: {
         width: '100%',
         height: '100%',
     },
+    bgWhite:{
+        backgroundColor:'#fff'
+    },
     p20: {
         padding: 20
+    },
+    p10: {
+        padding: 10
     },
     cell: {},
     cellGroup: {

@@ -29,7 +29,7 @@ export default class FocusApp extends Component {
             header: null,  //隐藏顶部导航栏
         };
     };
-    
+
     constructor (props) {
         super(props);
     }
